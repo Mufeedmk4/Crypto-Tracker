@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <script src="sorttable.js"></script>
+    
     <title>Document</title>
 </head>
 <body>
@@ -32,44 +33,39 @@
         </div>
     </header>
 
+    <section class="starting-text">
+        <h1>
+            Ready to lose money? Check out the rates below to see which coin to risk your money on!
+        </h1>
+        <P>
+            With Cyrpto-Nite you can keep an eye out on all your crypto assets from one area.
+        </P>
+    </section>
+
+    <section>
+        <div class="top-information" id="top-information">
+            
+        </div>
+    </section>
 <!--Will be dynamically set-->
     <section>
         <div class="table-class">
             <table class="sortable table">
                 <thead>
-                    <tr>
+                    <tr class="headertrs">
                         <th></i></th>
                         <th>RANK</th>
                         <th>NAME</th>
                         <th></th>
                         <th>PRICE</th>
                         <th>24H +/-</th>
-                        <th>24H VOLUME</th>
+                        <th>BTC VALUE</th>
                         <th>MARKET CAP</th>
                         <th>TREND</th>
                         
                     </tr>
                 </thead>
-                    <tbody>
-                        <tr>
-                            <td><i class="bi bi-star"></i></td>
-                            <td>1</td>
-                            <td>
-                                <div class="name-td">
-                                    <img class="coin-icon" src="https://cdn.coinranking.com/Sy33Krudb/btc.svg">
-                                    <div class="coin-name">
-                                        <p class="proper-name">Bitcoin</p>
-                                        <p class="symbol">BTC</p>
-                                    </div>
-                                </div>
-                            </td>
-                            <td></td>
-                            <td>$9370.99</td>
-                            <td>-0.52</td>
-                            <td>18.4B</td>
-                            <td>583.1B</td>
-                            <td>Chart Placeholder</td>
-                        </tr>
+                    <tbody id="coins-body">
                     </tbody>
             </table>
         </div>
