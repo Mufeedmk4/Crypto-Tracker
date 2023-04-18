@@ -17,8 +17,15 @@
 }
 
 body {
-    
     background-color: var(--white);
+}
+
+main {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 header {
@@ -79,7 +86,7 @@ li {
 
 
 .table-class {
-    margin-top: 2rem;
+    margin-top: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,7 +198,8 @@ table{
     justify-content: space-between;
     margin-right: 3rem;
     margin-left: 3rem;
-    margin-top: 4rem;;
+    margin-top: 4rem;
+    
 }
 
 .total-market, .market-cap, .total-volume {
@@ -222,9 +230,22 @@ table{
     margin-left: 3rem;
     margin-top: 3rem;
     text-align: center;
-    color: var(--dark)
+    color: var(--dark);
+    
 }
 
 .total-market:hover, .market-cap:hover, .total-volume:hover {
     background-color: #ff82c0;;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: .8rem;
+    margin-bottom: 3rem;
+    color:#5c4b44;
+}
+
+footer p {
+    margin: 5px;
 }
