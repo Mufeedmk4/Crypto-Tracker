@@ -1,0 +1,121 @@
+:root {
+    --primary: #2e2e2e;
+    --secondary: #ff3737;
+    --light: #e46a68;
+    --dark: #040404;
+    --gray: #6e6e6e;
+    --white: #FFF;
+
+    --shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'montserrat', sans-serif;
+}
+
+body {
+    
+    background-color: var(--dark);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--primary);
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.bubble {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1rem;
+    background-color: var(--gray);
+    border-radius: .25rem;
+    padding: .5rem 1.25rem;
+}
+
+.non-bubble {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1rem;
+}
+
+.navbar {
+    display: flex;
+    gap: 1rem;
+}
+
+.logo {
+    color: var(--gray)
+}
+
+.color-change {
+    color: var(--white)
+}
+
+.non-bubble:hover, .non-bubble:focus {
+    color: var(--gray)
+}
+
+.bubble:hover, .bubble:focus {
+    background-color: var(--light);
+}
+
+
+
+.table-class {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    color: var(--white);
+    background-color: var(--primary);
+    width: 100%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 3px;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: center;
+
+}
+
+table{
+    border: none;
+}
+
+.name-td {
+    max-width: 2rem;
+}
+
+.coin-icon {
+    width: 100%;
+}
+
+.name-td {
+    display: flex;
+    gap: .75rem;
+    text-align: left;
+}
+
+.symbol {
+    font-size: .75rem;
+    color: var(--gray)
+}
